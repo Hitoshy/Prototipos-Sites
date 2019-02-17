@@ -1,0 +1,5 @@
+Neste protótipo, é a primeira tentativa de criação de site que fiz começando do zero, utilizando html e css somente.
+Nele, aprendi diversas coisas como as estruturas de um html semântico.
+Percebi a falta que teve no Javascript.
+Utilizei comandos de importação para poder utilizar o arquivo css, algumas imagens e os ícones do "FontAwesome".
+Não utilizei o footer.

@@ -1,0 +1,236 @@
+/*
+*	INICIAL
+*/
+body {
+	width: auto;
+	height: auto;
+	border-style: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+header {
+	background-color: #141414;
+	width: auto;
+	min-height: 10%;
+	max-height: 10%;
+	margin: 0;
+	padding: 0;
+}
+main {
+	background-color: #FC3838;
+	margin: 0;
+	padding: 0;
+}
+/*
+*	HEADER
+*/
+.Head-LS {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+}
+header div {
+	display: inline-block;
+	min-width:100%;
+	max-width:100%;
+	height: auto;
+	padding: 2% 3% 0.5% 3%;
+	margin: 0;
+}
+header nav {
+	background-color: #333333;
+	display: inline-block;
+	min-width:100%;
+	max-width:100%;
+	height: auto;
+	padding: 0 2% 0 0;
+	border: 0;
+	margin: 0 0 0 0;
+}
+a.Head-LS-Logo {
+	position: relative;
+	width: 5%;
+}
+a.Head-LS-Logo img{
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+h1.Head-LS-Name {
+	position: relative;
+	width: 70%;
+	height: auto;
+	display: inline;
+	flex-direction: row;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 300%;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	padding: 0;
+}
+ul.Head-LS-Social {
+	position: relative;
+	/*
+	width: 20%;
+	height: auto;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	*/
+	flex: 2;
+	flex-wrap: wrap;
+	display: inline;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+	padding-right: 5%;
+	padding-left: 0;
+}
+ul.Head-LS-Social li{
+	position: relative;
+	width: 20%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+header div ul li a {
+	display: block;
+	align-content: center;
+	resize: 100%;
+}
+nav.Head-Menu ul{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	flex-direction: row;
+	list-style-type: none;
+}
+nav.Head-Menu ul li{
+	width: 10%;
+	height: auto;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: auto;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	padding: 0.5% 0 0.5% 0;
+	list-style-type: none;
+}
+header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*
+*	MAIN
+*/
+main section{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	flex-direction: row;
+	padding: 2% 5% 2% 5%;
+}
+figure.Main-Top-Img{
+	width: 50%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	object-fit: contain;
+}
+figure.Main-Top-Img img{
+	width: 100%;
+	float: left;
+}
+.Main-Top-Text {
+	float: right;
+	width: 43%;
+	padding: 0 6.5% 0 0;
+}
+.Main-Top-Text h1{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 300%;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	color: #333333;
+	text-align: left;
+	padding: 0 0 0 0;
+}
+.Main-Top-Text h3{
+	margin: 0;
+	color: #222222;
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+.Main-Top-Text p{
+	margin: 0;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 200%;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	text-align: left;
+	padding: 0 0 0 0;
+}
+.Itens-Main {
+	width: 100%;
+	display: inline-block;
+	flex-direction: row;
+}
+.Itens-Main div{
+	float: left;
+	width: 20%;
+	font-size: 500%;
+	text-align: center;
+}
+.Projetos h1,p{
+	padding: 0 5% 0 5%;
+	text-align: center;
+	font-size: 30%;
+}
+.Palestras h1,p{
+	padding: 0 5% 0 5%;
+	text-align: center;
+	font-size: 30%;
+}
+.Artigos h1,p{
+	padding: 0 5% 0 5%;
+	text-align: center;
+	font-size: 30%;
+}
+.PodCast p,h1{
+	padding: 0 5% 0 5%;
+	text-align: center;
+	font-size: 30%;
+}
+.Videos h1,p{
+	padding: 0 5% 0 5%;
+	text-align: center;
+	font-size: 30%;
+}
+main div{
+	color: #ffffff;
+}
+/*
+*	FOOTER
+*/
